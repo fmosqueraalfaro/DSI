@@ -17,5 +17,9 @@ public class Materia {
     this.correlativas = new ArrayList<>();
   }
 
+  public void agregarCorrelativa(Materia unaMateria){
+    correlativas.add(unaMateria);
+  }
+
 
 }
